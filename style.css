@@ -1,0 +1,45 @@
+body {
+  background-color: #404040;
+  margin: 0;
+}
+a,
+a:visited,
+a:focus {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 10%;
+}
+h1{
+ color: white;
+ text-align: center;
+}
+#problema,
+#respuesta {
+  width: 33%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 2%;
+  background-color: #404040c4;
+  color: white;
+  font-size: 1.2rem;
+}
+#problema {
+  border: 8px red solid;
+  box-shadow: 0px 0px  15px 10px rgba(255, 0, 0, 0.6);
+}
+#respuesta {
+  border: 8px rgb(115, 255, 0) solid;
+  box-shadow: 0px 0px  15px 10px rgba(115, 255, 0, 0.6);
+}
+#contenido {
+  display: flex;
+  justify-content: space-evenly;
+}
+#badcode,
+#goodcode {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
